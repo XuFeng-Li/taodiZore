@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		772C478028A35AE600E0AB4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772C477F28A35AE600E0AB4E /* AppDelegate.swift */; };
+		772C478228A35AE600E0AB4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772C478128A35AE600E0AB4E /* SceneDelegate.swift */; };
+		772C478428A35AE600E0AB4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772C478328A35AE600E0AB4E /* ViewController.swift */; };
+		772C478728A35AE600E0AB4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 772C478528A35AE600E0AB4E /* Main.storyboard */; };
+		772C478928A35AEA00E0AB4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772C478828A35AEA00E0AB4E /* Assets.xcassets */; };
+		772C478C28A35AEA00E0AB4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 772C478A28A35AEA00E0AB4E /* LaunchScreen.storyboard */; };
+		772C479728A35AEA00E0AB4E /* TaodiZooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772C479628A35AEA00E0AB4E /* TaodiZooTests.swift */; };
+		772C47A128A35AEA00E0AB4E /* TaodiZooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772C47A028A35AEA00E0AB4E /* TaodiZooUITests.swift */; };
+		772C47A328A35AEA00E0AB4E /* TaodiZooUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772C47A228A35AEA00E0AB4E /* TaodiZooUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		772C479328A35AEA00E0AB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 772C477428A35AE600E0AB4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 772C477B28A35AE600E0AB4E;
+			remoteInfo = TaodiZoo;
+		};
+		772C479D28A35AEA00E0AB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 772C477428A35AE600E0AB4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 772C477B28A35AE600E0AB4E;
+			remoteInfo = TaodiZoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		772C477C28A35AE600E0AB4E /* TaodiZoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaodiZoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		772C477F28A35AE600E0AB4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		772C478128A35AE600E0AB4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		772C478328A35AE600E0AB4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		772C478628A35AE600E0AB4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		772C478828A35AEA00E0AB4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		772C478B28A35AEA00E0AB4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		772C478D28A35AEA00E0AB4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		772C479228A35AEA00E0AB4E /* TaodiZooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaodiZooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		772C479628A35AEA00E0AB4E /* TaodiZooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaodiZooTests.swift; sourceTree = "<group>"; };
+		772C479C28A35AEA00E0AB4E /* TaodiZooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaodiZooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		772C47A028A35AEA00E0AB4E /* TaodiZooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaodiZooUITests.swift; sourceTree = "<group>"; };
+		772C47A228A35AEA00E0AB4E /* TaodiZooUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaodiZooUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		772C477928A35AE600E0AB4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772C478F28A35AEA00E0AB4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772C479928A35AEA00E0AB4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		772C477328A35AE600E0AB4E = {
+			isa = PBXGroup;
+			children = (
+				772C477E28A35AE600E0AB4E /* TaodiZoo */,
+				772C479528A35AEA00E0AB4E /* TaodiZooTests */,
+				772C479F28A35AEA00E0AB4E /* TaodiZooUITests */,
+				772C477D28A35AE600E0AB4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		772C477D28A35AE600E0AB4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				772C477C28A35AE600E0AB4E /* TaodiZoo.app */,
+				772C479228A35AEA00E0AB4E /* TaodiZooTests.xctest */,
+				772C479C28A35AEA00E0AB4E /* TaodiZooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		772C477E28A35AE600E0AB4E /* TaodiZoo */ = {
+			isa = PBXGroup;
+			children = (
+				772C477F28A35AE600E0AB4E /* AppDelegate.swift */,
+				772C478128A35AE600E0AB4E /* SceneDelegate.swift */,
+				772C478328A35AE600E0AB4E /* ViewController.swift */,
+				772C478528A35AE600E0AB4E /* Main.storyboard */,
+				772C478828A35AEA00E0AB4E /* Assets.xcassets */,
+				772C478A28A35AEA00E0AB4E /* LaunchScreen.storyboard */,
+				772C478D28A35AEA00E0AB4E /* Info.plist */,
+			);
+			path = TaodiZoo;
+			sourceTree = "<group>";
+		};
+		772C479528A35AEA00E0AB4E /* TaodiZooTests */ = {
+			isa = PBXGroup;
+			children = (
+				772C479628A35AEA00E0AB4E /* TaodiZooTests.swift */,
+			);
+			path = TaodiZooTests;
+			sourceTree = "<group>";
+		};
+		772C479F28A35AEA00E0AB4E /* TaodiZooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				772C47A028A35AEA00E0AB4E /* TaodiZooUITests.swift */,
+				772C47A228A35AEA00E0AB4E /* TaodiZooUITestsLaunchTests.swift */,
+			);
+			path = TaodiZooUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		772C477B28A35AE600E0AB4E /* TaodiZoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 772C47A628A35AEA00E0AB4E /* Build configuration list for PBXNativeTarget "TaodiZoo" */;
+			buildPhases = (
+				772C477828A35AE600E0AB4E /* Sources */,
+				772C477928A35AE600E0AB4E /* Frameworks */,
+				772C477A28A35AE600E0AB4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaodiZoo;
+			productName = TaodiZoo;
+			productReference = 772C477C28A35AE600E0AB4E /* TaodiZoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		772C479128A35AEA00E0AB4E /* TaodiZooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 772C47A928A35AEA00E0AB4E /* Build configuration list for PBXNativeTarget "TaodiZooTests" */;
+			buildPhases = (
+				772C478E28A35AEA00E0AB4E /* Sources */,
+				772C478F28A35AEA00E0AB4E /* Frameworks */,
+				772C479028A35AEA00E0AB4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				772C479428A35AEA00E0AB4E /* PBXTargetDependency */,
+			);
+			name = TaodiZooTests;
+			productName = TaodiZooTests;
+			productReference = 772C479228A35AEA00E0AB4E /* TaodiZooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		772C479B28A35AEA00E0AB4E /* TaodiZooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 772C47AC28A35AEA00E0AB4E /* Build configuration list for PBXNativeTarget "TaodiZooUITests" */;
+			buildPhases = (
+				772C479828A35AEA00E0AB4E /* Sources */,
+				772C479928A35AEA00E0AB4E /* Frameworks */,
+				772C479A28A35AEA00E0AB4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				772C479E28A35AEA00E0AB4E /* PBXTargetDependency */,
+			);
+			name = TaodiZooUITests;
+			productName = TaodiZooUITests;
+			productReference = 772C479C28A35AEA00E0AB4E /* TaodiZooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		772C477428A35AE600E0AB4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					772C477B28A35AE600E0AB4E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					772C479128A35AEA00E0AB4E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 772C477B28A35AE600E0AB4E;
+					};
+					772C479B28A35AEA00E0AB4E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 772C477B28A35AE600E0AB4E;
+					};
+				};
+			};
+			buildConfigurationList = 772C477728A35AE600E0AB4E /* Build configuration list for PBXProject "TaodiZoo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 772C477328A35AE600E0AB4E;
+			productRefGroup = 772C477D28A35AE600E0AB4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				772C477B28A35AE600E0AB4E /* TaodiZoo */,
+				772C479128A35AEA00E0AB4E /* TaodiZooTests */,
+				772C479B28A35AEA00E0AB4E /* TaodiZooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		772C477A28A35AE600E0AB4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772C478C28A35AEA00E0AB4E /* LaunchScreen.storyboard in Resources */,
+				772C478928A35AEA00E0AB4E /* Assets.xcassets in Resources */,
+				772C478728A35AE600E0AB4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772C479028A35AEA00E0AB4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772C479A28A35AEA00E0AB4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		772C477828A35AE600E0AB4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772C478428A35AE600E0AB4E /* ViewController.swift in Sources */,
+				772C478028A35AE600E0AB4E /* AppDelegate.swift in Sources */,
+				772C478228A35AE600E0AB4E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772C478E28A35AEA00E0AB4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772C479728A35AEA00E0AB4E /* TaodiZooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772C479828A35AEA00E0AB4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772C47A328A35AEA00E0AB4E /* TaodiZooUITestsLaunchTests.swift in Sources */,
+				772C47A128A35AEA00E0AB4E /* TaodiZooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		772C479428A35AEA00E0AB4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 772C477B28A35AE600E0AB4E /* TaodiZoo */;
+			targetProxy = 772C479328A35AEA00E0AB4E /* PBXContainerItemProxy */;
+		};
+		772C479E28A35AEA00E0AB4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 772C477B28A35AE600E0AB4E /* TaodiZoo */;
+			targetProxy = 772C479D28A35AEA00E0AB4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		772C478528A35AE600E0AB4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				772C478628A35AE600E0AB4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		772C478A28A35AEA00E0AB4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				772C478B28A35AEA00E0AB4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		772C47A428A35AEA00E0AB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		772C47A528A35AEA00E0AB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		772C47A728A35AEA00E0AB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A756932J5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaodiZoo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taodi.animal.TaodiZoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		772C47A828A35AEA00E0AB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A756932J5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaodiZoo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taodi.animal.TaodiZoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		772C47AA28A35AEA00E0AB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A756932J5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taodi.animal.TaodiZooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaodiZoo.app/TaodiZoo";
+			};
+			name = Debug;
+		};
+		772C47AB28A35AEA00E0AB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A756932J5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taodi.animal.TaodiZooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaodiZoo.app/TaodiZoo";
+			};
+			name = Release;
+		};
+		772C47AD28A35AEA00E0AB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A756932J5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taodi.animal.TaodiZooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaodiZoo;
+			};
+			name = Debug;
+		};
+		772C47AE28A35AEA00E0AB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A756932J5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taodi.animal.TaodiZooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaodiZoo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		772C477728A35AE600E0AB4E /* Build configuration list for PBXProject "TaodiZoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				772C47A428A35AEA00E0AB4E /* Debug */,
+				772C47A528A35AEA00E0AB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		772C47A628A35AEA00E0AB4E /* Build configuration list for PBXNativeTarget "TaodiZoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				772C47A728A35AEA00E0AB4E /* Debug */,
+				772C47A828A35AEA00E0AB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		772C47A928A35AEA00E0AB4E /* Build configuration list for PBXNativeTarget "TaodiZooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				772C47AA28A35AEA00E0AB4E /* Debug */,
+				772C47AB28A35AEA00E0AB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		772C47AC28A35AEA00E0AB4E /* Build configuration list for PBXNativeTarget "TaodiZooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				772C47AD28A35AEA00E0AB4E /* Debug */,
+				772C47AE28A35AEA00E0AB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 772C477428A35AE600E0AB4E /* Project object */;
+}
