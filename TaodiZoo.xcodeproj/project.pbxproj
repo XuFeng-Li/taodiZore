@@ -15,7 +15,18 @@
 		772C478C28A35AEA00E0AB4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 772C478A28A35AEA00E0AB4E /* LaunchScreen.storyboard */; };
 		772C47B028A35BB800E0AB4E /* Panda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772C47AF28A35BB800E0AB4E /* Panda.swift */; };
 		772C47B228A35CA000E0AB4E /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772C47B128A35CA000E0AB4E /* Animal.swift */; };
+		772C47BA28A3652900E0AB4E /* TaodiZooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772C47B928A3652900E0AB4E /* TaodiZooTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		772C47BB28A3652900E0AB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 772C477428A35AE600E0AB4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 772C477B28A35AE600E0AB4E;
+			remoteInfo = TaodiZoo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		772C477C28A35AE600E0AB4E /* TaodiZoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaodiZoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,12 +37,21 @@
 		772C478828A35AEA00E0AB4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		772C478B28A35AEA00E0AB4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		772C478D28A35AEA00E0AB4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		772C47AF28A35BB800E0AB4E /* Panda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Panda.swift; sourceTree = "<group>"; };
+		772C47AF28A35BB800E0AB4E /* Panda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Panda.swift; sourceTree = "<group>"; tabWidth = 2; };
 		772C47B128A35CA000E0AB4E /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		772C47B728A3652900E0AB4E /* TaodiZooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaodiZooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		772C47B928A3652900E0AB4E /* TaodiZooTests.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = TaodiZooTests.swift; sourceTree = "<group>"; tabWidth = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		772C477928A35AE600E0AB4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772C47B428A3652900E0AB4E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				772C477E28A35AE600E0AB4E /* TaodiZoo */,
+				772C47B828A3652900E0AB4E /* TaodiZooTests */,
 				772C477D28A35AE600E0AB4E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				772C477C28A35AE600E0AB4E /* TaodiZoo.app */,
+				772C47B728A3652900E0AB4E /* TaodiZooTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +93,14 @@
 				772C478D28A35AEA00E0AB4E /* Info.plist */,
 			);
 			path = TaodiZoo;
+			sourceTree = "<group>";
+		};
+		772C47B828A3652900E0AB4E /* TaodiZooTests */ = {
+			isa = PBXGroup;
+			children = (
+				772C47B928A3652900E0AB4E /* TaodiZooTests.swift */,
+			);
+			path = TaodiZooTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +123,24 @@
 			productReference = 772C477C28A35AE600E0AB4E /* TaodiZoo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		772C47B628A3652900E0AB4E /* TaodiZooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 772C47BD28A3652900E0AB4E /* Build configuration list for PBXNativeTarget "TaodiZooTests" */;
+			buildPhases = (
+				772C47B328A3652900E0AB4E /* Sources */,
+				772C47B428A3652900E0AB4E /* Frameworks */,
+				772C47B528A3652900E0AB4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				772C47BC28A3652900E0AB4E /* PBXTargetDependency */,
+			);
+			name = TaodiZooTests;
+			productName = TaodiZooTests;
+			productReference = 772C47B728A3652900E0AB4E /* TaodiZooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -105,6 +153,10 @@
 				TargetAttributes = {
 					772C477B28A35AE600E0AB4E = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					772C47B628A3652900E0AB4E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 772C477B28A35AE600E0AB4E;
 					};
 				};
 			};
@@ -122,6 +174,7 @@
 			projectRoot = "";
 			targets = (
 				772C477B28A35AE600E0AB4E /* TaodiZoo */,
+				772C47B628A3652900E0AB4E /* TaodiZooTests */,
 			);
 		};
 /* End PBXProject section */
@@ -134,6 +187,13 @@
 				772C478C28A35AEA00E0AB4E /* LaunchScreen.storyboard in Resources */,
 				772C478928A35AEA00E0AB4E /* Assets.xcassets in Resources */,
 				772C478728A35AE600E0AB4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772C47B528A3652900E0AB4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +212,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		772C47B328A3652900E0AB4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772C47BA28A3652900E0AB4E /* TaodiZooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		772C47BC28A3652900E0AB4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 772C477B28A35AE600E0AB4E /* TaodiZoo */;
+			targetProxy = 772C47BB28A3652900E0AB4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		772C478528A35AE600E0AB4E /* Main.storyboard */ = {
@@ -346,6 +422,42 @@
 			};
 			name = Release;
 		};
+		772C47BE28A3652900E0AB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A756932J5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taodi.animal.TaodiZooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaodiZoo.app/TaodiZoo";
+			};
+			name = Debug;
+		};
+		772C47BF28A3652900E0AB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A756932J5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taodi.animal.TaodiZooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaodiZoo.app/TaodiZoo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -363,6 +475,15 @@
 			buildConfigurations = (
 				772C47A728A35AEA00E0AB4E /* Debug */,
 				772C47A828A35AEA00E0AB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		772C47BD28A3652900E0AB4E /* Build configuration list for PBXNativeTarget "TaodiZooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				772C47BE28A3652900E0AB4E /* Debug */,
+				772C47BF28A3652900E0AB4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

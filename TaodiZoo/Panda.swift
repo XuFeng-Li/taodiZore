@@ -44,6 +44,17 @@ class Panda: Animal, Lovable, Hungry {
   func annoying(offset: Int) {
     favorability = max(favorability - offset, 0)
   }
+  /// 指定构造器
+  init() {
+    // 默认的饱食度为60
+    satiety = 60
+    // 默认的好感度为60
+    favorability = 60
+    // 提交父类指定构造器
+    super.init(favoriteFood: "竹子", dislikedFood: "钉子")
+    // 重新设置好感度为80
+    self.favorability = 80
+  }
   
   override func eat(food: String) {
     switch food {
@@ -57,16 +68,5 @@ class Panda: Animal, Lovable, Hungry {
       upSatiety(offset: 5)
       prefer(offset: 5)
     }
-  }
-  /// 指定构造器
-  init() {
-    // 默认的饱食度为60
-    satiety = 60
-    // 默认的好感度为60
-    favorability = 60
-    // 提交父类指定构造器
-    super.init(favoriteFood: "竹子", dislikedFood: "钉子")
-    // 重新设置好感度为80
-    self.favorability = 80
   }
 }
